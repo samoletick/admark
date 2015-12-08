@@ -414,7 +414,7 @@ a:focus, a:active {
 }
 
 .section {
-  padding: 30px 0;
+  /* padding: 30px 0; */
   position: relative;
   background-color: #FFFFFF;
 }
@@ -723,7 +723,7 @@ a:focus, a:active {
 .landing-page .section p{
   margin-top: 30px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
 }
 .landing-page .section-description h5 {
@@ -747,7 +747,7 @@ a:focus, a:active {
   left: auto;
 }
 .landing-page .section-clients {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .landing-page .section-clients .info .icon {
   background: transparent;
@@ -1047,13 +1047,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   line-height: 1.4;
   font-weight: 400;
   text-shadow: 0 1px 5px rgba(0,0,0,0.5);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .landing-page .parallax .buttons{
   width: 100%;
   display: inline-block;
-  margin-top: 40px;
+  margin: 20px 0px 0px 5px;
   }
 
   .landing-page .parallax .buttons h4{
@@ -1178,11 +1178,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
    .landing-page .section-features{
         margin: 0;
+		padding-bottom: 30px;
    }
 
    .landing-page .section-features .card{
         width: 100%;
-        min-height: 390px;
+        min-height: 300px;
         padding: 10px 30px;
         border: 1px solid #DDDDDD;
         border-radius: 10px;
@@ -1190,6 +1191,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         text-align: center;
    }
    .landing-page .section-features .card .icon i{
+        font-size: 63px;
+        color: #9a9a9a;
+        width: 85px;
+        height: 85px;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+   }
+   .landing-page .section-clients .icon i{
         font-size: 63px;
         color: #9a9a9a;
         width: 85px;
