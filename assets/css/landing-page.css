@@ -11,6 +11,11 @@
     src: url('/assets/fonts/HelveticaNeueCyr-Light.otf') format('opentype'),
 		url('/assets/fonts/HelveticaNeueCyr-Light.eot') format('embedded-opentype');
 }
+
+.center {
+	text-align: center;
+}
+
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
@@ -1554,6 +1559,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 @media (min-width: 768px){
+
     .navbar-form {
         margin-top: 21px;
         margin-bottom: 21px;
