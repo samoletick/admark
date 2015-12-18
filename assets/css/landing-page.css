@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('/assets/fonts/HelveticaNeueCyr-Light.otf') format('opentype'),
+    src: url('/assets/fonts/HelveticaNeueCyr-Light.ttf') format('truetype'),
 		url('/assets/fonts/HelveticaNeueCyr-Light.eot') format('embedded-opentype');
 }
 
@@ -419,7 +419,7 @@ a:focus, a:active {
 }
 
 .section {
-  /* padding: 30px 0; */
+  padding: 30px 0; 
   position: relative;
   background-color: #FFFFFF;
 }
@@ -1265,8 +1265,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     
   }
     .landing-page .section-testimonial .carousel-inner .item .mask{
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       border: 5px solid #ddd;
       overflow: hidden;
