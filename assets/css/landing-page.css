@@ -880,7 +880,7 @@ a:focus, a:active {
       margin-bottom: 20px;
       font-size: 30px;
       position: relative;
-      line-height: 24px;
+      line-height: 120%; /* old 24px  */
 }
 
 .landing-page .navbar-top {
@@ -996,7 +996,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   height: 100%;
 }
 .landing-page .parallax .parallax-background img{
-  width: 100%;
+  width: auto;
   height: auto;
   position: relative;
 }
@@ -1555,7 +1555,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     #video_background{
         display: none;
     }
-
+  img.phone {
+	  display:none;
+  }
+  .img-responsive {
+	  display:none;
+  }
 }
 
 @media (min-width: 768px){
@@ -1706,6 +1711,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+  
+  .landing-page .section-testimonial .carousel-inner  h3{
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 27px;
+	}
 }
 
 @media (min-width: 768px){
@@ -1761,4 +1772,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   background-color: #007bb5;
   color: white;
   opacity: 1;
+}
+
+ul#partners {
+	padding-top: 0px;
+}
+
+#partners li {
+	margin: 40px 40px 40px 40px;
 }
