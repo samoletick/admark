@@ -1,8 +1,9 @@
 <?
-if (isset ($_POST['messageFF'])) {
-  mail ("help@admark.me",
+header("Content-Type: text/html; charset=utf-8");
+if (isset ($_POST['message'])) {
+  mail ("askar@admark.me",
         "Заполнена контактная форма с ".$_SERVER['HTTP_REFERER'],
-        "Имя: ".$_POST['nameFF']."\nEmail: ".$_POST['contactFF']."\nСообщение: ".$_POST['messageFF']);
+        "Имя: ".$_POST['name']."\nEmail: ".$_POST['email']."\nСообщение: ".$_POST['message']);
   echo ('<p style="color: green">Ваше сообщение получено, спасибо!</p>');
 }
 ?>
