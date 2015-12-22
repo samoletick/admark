@@ -1782,13 +1782,13 @@ ul#partners {
 	margin: 40px 40px 40px 40px;
 }
 
-#feedback-form {
+#forma {
   max-width: auto;
   padding: 2%;
   border-radius: 3px;
   background: #f8f8f8;
 }
-#feedback-form [required] {
+#forma [required] {
   width: 100%;
   box-sizing: border-box;
   margin: 2px 0 2% 0;
@@ -1797,17 +1797,17 @@ ul#partners {
   border-radius: 3px;
   box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
 }
-#feedback-form [required]:hover {
+#forma [required]:hover {
   border-color: #7eb4ea;
   box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
 }
-#feedback-form [required]:focus {
+#forma [required]:focus {
   outline: none;
   border-color: #7eb4ea;
   box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
   transition: .2s linear;
 }
-#feedback-form [type="submit"] {
+#forma [type="submit"] {
   padding: 2%;
   border: none;
   border-radius: 3px;
@@ -1815,9 +1815,9 @@ ul#partners {
   background: #ff9d44;
   color: #fff;
 }
-#feedback-form [type="submit"]:hover {
+#forma [type="submit"]:hover {
   background: #e9a124;
 }
-#feedback-form [type="submit"]:focus {
+#forma [type="submit"]:focus {
   box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
 }
